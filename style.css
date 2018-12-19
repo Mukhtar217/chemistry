@@ -75,3 +75,51 @@ body{
 .spaces{
     width:30%;
 }
+.n2o{
+    background-image: none;
+background-color: black;
+    
+}
+.nTitle{
+    font-size:50px;
+    margin-top:-1px;
+    margin-bottom: -1px;
+    padding-left: 5px;
+    color:white;
+}
+.logo{
+    width:60px;
+    height:100%;
+    
+}
+.header{
+    border:white solid 5px;
+    width:13%;
+    display:flex;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url("https://image.freepik.com/free-vector/instagram-background-in-gradient-colors_23-2147821882.jpg")
+}
+.questions{
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    width:85%;
+    background-color: #272FA2;
+    margin-left:-1px;
+    border:#F64C72 solid 5px;
+}
+#space{
+    width:2%;
+}
+#wow{
+    display:flex;
+    
+}
+.main{
+    margin-top:15px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("https://i1.wp.com/www.honest.media/wp-content/uploads/2016/04/Insta-Background-Gradient.jpg")
+}
