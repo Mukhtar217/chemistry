@@ -1,0 +1,40 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-image: url("http://i.imgur.com/KLlJ5m2.jpg");
+}
+#parent{
+    display:flex;
+}
+#title{
+    width:100%;
+}
+#homeTitle{
+    display:flex;
+    justify-content:center;
+    font-size:100px;
+    margin-top:-1px;
+    margin-bottom:-1px;
+}
+.colorShem{
+    border:solid #F64C72 5px;
+    background-color:#2F2FA2;
+    color:white;
+}
+#homeSide{
+    display:flex;
+    justify-content:center;
+     width:15%;
+     margin-top:25px;
+     padding-bottom: 400px;
+}
+.select{
+    font-size:18px;
+    border:solid black 3px;
+}
+.select:hover{
+    color:red;
+    text-decoration: underline;
+    border:solid white 3px;
+}
