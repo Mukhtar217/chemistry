@@ -4,13 +4,13 @@ body{
     background-size:100%;
     background-image: url("http://i.imgur.com/KLlJ5m2.jpg");
 }
-#parent{
+.parent{
     display:flex;
 }
-#title{
+.title{
     width:100%;
 }
-#homeTitle{
+.homeTitle{
     display:flex;
     justify-content:center;
     font-size:100px;
@@ -30,6 +30,8 @@ body{
      padding-bottom: 400px;
 }
 .select{
+    margin-top: 10px;
+    color:white;
     font-size:18px;
     border:solid black 3px;
 }
@@ -37,4 +39,44 @@ body{
     color:red;
     text-decoration: underline;
     border:solid white 3px;
+}
+.compounds{ 
+    text-align: center;
+    width:40%;
+    border:solid white 10px;
+    margin:5px;
+    margin-top: 7px;
+    padding:5px;
+    padding-bottom: 70px;
+    
+}
+.compounds:hover{
+    border:black solid 10px;
+    color:red;
+
+}    
+.comImg{
+    width:100%;
+    height:100%;
+}
+.com{
+    color:white;
+    font-size:50px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:black;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 0.5px;
+}
+.com:hover{
+    color:#F64C72;
+    text-decoration: underline;
+    background-color:black;
+}
+.parentTwo{
+    display:flex;
+}
+.spaces{
+    width:30%;
 }
