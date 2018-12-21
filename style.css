@@ -58,7 +58,7 @@ body{
     color:white;
     font-size:50px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight:bold;
     background-color:black;
     padding-left:20px;
     padding-right: 20px;
@@ -76,8 +76,10 @@ body{
     width:30%;
 }
 .n2o{
+        font-family: 'Quicksand', sans-serif;
     background-image: none;
 background-color: black;
+
     
 }
 .nTitle{
@@ -93,7 +95,7 @@ background-color: black;
     
 }
 .header{
-    border:white solid 5px;
+    border:#F64C72 solid 5px;
     width:13%;
     display:flex;
     background-size:100%;
@@ -117,9 +119,47 @@ background-color: black;
     
 }
 .main{
+    display:flex;
     margin-top:15px;
     height:500px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url("https://i1.wp.com/www.honest.media/wp-content/uploads/2016/04/Insta-Background-Gradient.jpg")
+}
+#imgD{
+    width:40%;
+}
+#img{
+    width:100%;
+    height:70%;
+    margin:10%;
+    border:black solid 5px;
+}
+#textD{
+    width:60%;
+}
+#text{
+    margin-top:20%;
+    margin-left:20%; 
+    margin-right:10%;
+    font-size:20px;
+    color:white;
+    border:black solid 5px;
+}
+.slide{
+    display:flex;
+    justify-content:space-between;
+}
+#name{
+    color:white;
+    font-size:20px;
+}
+#slide{
+    padding-top: 20px;
+    color:blue;
+    font-size:20px;
+    
+}
+#slide:hover{
+   color:red; 
 }
